@@ -16,3 +16,5 @@ New changes:
 - Changed the change function
 -- it now deletes the result after it adds a new one to avoid a bug where you could input an incorrect user and it would only delete the current user and not add a new one.
    - hopefully this version is a tiny bit better :)
+- fixed an invalid result on the change function
+  -- it now shows 'invalid option' rather than 'invalid user'
